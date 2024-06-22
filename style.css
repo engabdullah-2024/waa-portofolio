@@ -1,0 +1,40 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ margin: 20px 20px;
+ background-color: #204E;
+ color: white;
+}
+
+.parent h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.images{
+    display: flex;
+ justify-content: space-between;
+}
+.images img{
+    width: 200px;
+    border-radius: 20%
+}
+.parent{
+    display: flex;
+    justify-content: space-becetween;
+    text-align: center;
+}
+.parent img{
+    width: 400px;
+    border-radius: 20%;
+}
+.header ul{
+    display: flex;
+   gap: 100px;
+   list-style: none;
+   font-size: 20px;
+   font-weight: bold;
+}
